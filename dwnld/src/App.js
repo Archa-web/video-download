@@ -14,5 +14,3 @@ function App() {
 export default App;
 
 
-
-//http://ondemandwebcast.niyamasabha.org/videos/kla_11072024/110724-Qstn-1-1.mp4
