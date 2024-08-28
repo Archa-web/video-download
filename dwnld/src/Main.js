@@ -3,7 +3,7 @@ import React from "react";
 const Main = () => {
   const downloadFile = async () => {
     const videoUrl =
-      "https://videos.pexels.com/video-files/26599818/11970365_2560_1440_24fps.mp4"; 
+      "http://ondemandwebcast.niyamasabha.org/videos/kla_11072024/110724-Qstn-1-1.mp4"; 
 
     try {
       const response = await fetch(videoUrl);
