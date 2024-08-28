@@ -9,11 +9,8 @@ const Main = () => {
       const response = await fetch(videoUrl);
 
       if (!response.ok) {
-        throw new Error(
-          Failed to download video: ${response.status} ${response.statusText}
-        );
+        throw new Error(`Failed to download video: ${response.status} ${response.statusText}`);
       }
-
       const blob = await response.blob();
       const url = window.URL.createObjectURL(blob);
 
@@ -39,4 +36,4 @@ const Main = () => {
   );
 };
 
-export  default  Main;
+export default Main;
